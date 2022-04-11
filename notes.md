@@ -3,6 +3,8 @@
 - 📃 Todo
 - 🚧 In Progress
 - ✔ Ready
+- ❌ Test red
+- ✅ Test green
 
 # Progress
 
@@ -12,5 +14,6 @@
 - create scenarios 🚧
 - create tests 🚧
 - create logic 🚧
-- 1st test, red
-- 1st test, ✔
+- 1st test ❌
+- 1st test ✅
+- 2nd test ❌

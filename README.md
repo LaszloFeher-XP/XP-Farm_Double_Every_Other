@@ -48,10 +48,14 @@ So that create the logic
 #### Scenarios 
 
 #### 1. 
-
 Given [1,2,3,4]
 When logic
 Then returns [1,4,3,8]
+
+#### 2. 
+Given [2,4,6,8]
+When logic
+Then returns [2,8,6,16]
 
 # Setting up the environment 
 
