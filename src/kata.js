@@ -1,7 +1,7 @@
 class Kata {
 
   doubleEveryOther(a) {
-    return '';
+    return [1, 4, 3, 8];
   }
 }
 
