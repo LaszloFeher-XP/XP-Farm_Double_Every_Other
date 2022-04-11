@@ -1,10 +1,10 @@
 class Kata {
 
-    func() {
-
-    }
+  doubleEveryOther(a) {
+    return '';
+  }
 }
 
 module.exports = {
-    Kata,
+  Kata,
 };

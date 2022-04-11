@@ -1,13 +1,13 @@
 [![Run Tests](https://github.com/LaszloFeher-XP/XP-Farm_Double_Every_Other/actions/workflows/test.yml/badge.svg)](https://github.com/LaszloFeher-XP/XP-Farm_Double_Every_Other/actions/workflows/test.yml/badge.svg) 
-"[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
-"[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other)" 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=LaszloFeher-XP_XP-Farm_Double_Every_Other&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=LaszloFeher-XP_XP-Farm_Double_Every_Other) 
 [![Open Issues](https://img.shields.io/github/issues/LaszloFeher-XP/XP-Farm_Double_Every_Other/badge.svg)](https://github.com/LaszloFeher-XP/XP-Farm_Double_Every_Other/issues) 
 
 [![Build Status](coverage/badge-branches.svg)](coverage/badge-branches.svg) 
@@ -19,28 +19,39 @@
 [Metrics report](metrics.md) 
 [Complexity report](complexity-report.md) 
 
-# KATA's name 
+# Double Every Other
 
-... 
+https://www.codewars.com/kata/5809c661f15835266900010a/train/javascript
 
 ## Instructions 
 
-... 
+Write a function that doubles every second integer in a list, starting from the left.
+
+Example:
+
+For input array/list :
+```sh
+[1,2,3,4]
+```
+the function should return :
+```sh
+[1,4,3,8]
+```
 
 ## User Stories 
 
 ### 1. First story 
-As a ... 
-I want to ... 
-So that ... 
+As a user
+I want to double every second integer in a list
+So that create the logic
 
 #### Scenarios 
 
 #### 1. 
 
-Given ... 
-When ... 
-Then ... 
+Given [1,2,3,4]
+When logic
+Then returns [1,4,3,8]
 
 # Setting up the environment 
 
